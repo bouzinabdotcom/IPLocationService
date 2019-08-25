@@ -29,8 +29,8 @@ app.get('/:ipaddress', param('ipaddress', 'IP Address is invalid').isIP(), (req,
 
 
     const raw_data = ip2loc.IP2Location_get_all(req.params.ipaddress);
-    // In Case you have a premium IP2LOCATION DB:
-    // Delete the line below and use 'raw_data' instead of 'data' to get all the information (isp, coordinates...).
+    // In Case you have a IP2LOCATION DB that provides more location data:
+    // -> Delete the line below and use 'raw_data' instead of 'data' to get all the information (isp, coordinates...).
     const data = _.pick(raw_data, ['ip', 'country_short', 'country_long', 'region', 'city', 'status']);
     
     res.send(data);
