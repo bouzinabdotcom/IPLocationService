@@ -1,0 +1,34 @@
+{
+  "name": "iplocationservice",
+  "version": "1.0.0",
+  "description": "A service that renders the location of a given IP Adress\u001b[D\u001b[D\u001b[D\u001b[Ddre\u001b[2~ss written in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bouzinabdotcom/IPLocationService.git"
+  },
+  "keywords": [
+    "ip",
+    "location",
+    "service",
+    "rest",
+    "node.js",
+    "ip2location"
+  ],
+  "author": "Omar Bouzinab",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bouzinabdotcom/IPLocationService/issues"
+  },
+  "homepage": "https://github.com/bouzinabdotcom/IPLocationService#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.0.0",
+    "express-validator": "^6.1.1",
+    "ip2location-nodejs": "^8.2.0",
+    "lodash": "^4.17.15"
+  }
+}
