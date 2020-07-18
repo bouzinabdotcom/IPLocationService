@@ -29,6 +29,6 @@
     "express-rate-limit": "^5.0.0",
     "express-validator": "^6.1.1",
     "ip2location-nodejs": "^8.2.0",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   }
 }
